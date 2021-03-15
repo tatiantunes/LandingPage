@@ -17,6 +17,24 @@ body{
     background-size: cover;
 }
 
+.listaplano li + li{
+   
+  border-top: 1px solid rgba(0,0,0,.4);
+}
+
+.listaplano li{
+    padding:1rem;
+
+}
+
+.fotos{
+    height: 320px;
+    width:  380px;
+}
+.fotos1{
+    height: 480px;
+    width:  380px;
+}
 
 @media(max-width: 767px)
 {
@@ -37,5 +55,16 @@ body{
  footer {
     background: black;
   }
+
+  .fotos{
+    height: 220px;
+    width:  280px;
+}
+.fotos1{
+    height: 380px;
+    width:  280px;
+}
+
+ 
 
 }
